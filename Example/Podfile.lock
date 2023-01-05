@@ -1,0 +1,16 @@
+PODS:
+  - GMBase (0.1.0)
+
+DEPENDENCIES:
+  - GMBase (from `../`)
+
+EXTERNAL SOURCES:
+  GMBase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GMBase: 229d0cdb924013fc4150ecea7e6796c6659a6dff
+
+PODFILE CHECKSUM: 86a02487c9e92a6bc8f985ac26b7c1680ee05d60
+
+COCOAPODS: 1.11.3

@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  GMBase
 //
-//  Created by 276122162@qq.com on 01/05/2023.
-//  Copyright (c) 2023 276122162@qq.com. All rights reserved.
+//  Created by gmj on 01/05/2023.
+//  Copyright (c) 2023 gmj. All rights reserved.
 //
 
 import UIKit
@@ -12,7 +12,6 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

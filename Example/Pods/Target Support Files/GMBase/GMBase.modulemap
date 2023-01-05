@@ -1,0 +1,6 @@
+framework module GMBase {
+  umbrella header "GMBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

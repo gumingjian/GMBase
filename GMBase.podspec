@@ -21,15 +21,15 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/276122162@qq.com/GMBase'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/gumingjian/GMBase.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '276122162@qq.com' => '276122162@qq.com' }
-  s.source           = { :git => 'https://github.com/276122162@qq.com/GMBase.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'gmj' => '276122162@qq.com' }
+  s.source           = { :git => 'https://github.com/gumingjian/GMBase.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
-
+  s.ios.deployment_target = '11.0'
+  s.swift_version = '5.0'
+  s.static_framework = true
+  s.requires_arc = true
   s.source_files = 'GMBase/Classes/**/*'
   
   # s.resource_bundles = {
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

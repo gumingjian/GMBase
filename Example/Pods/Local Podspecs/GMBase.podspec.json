@@ -1,0 +1,26 @@
+{
+  "name": "GMBase",
+  "version": "0.1.0",
+  "summary": "A short description of GMBase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gumingjian/GMBase.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gmj": "276122162@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/gumingjian/GMBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": "5.0",
+  "static_framework": true,
+  "requires_arc": true,
+  "source_files": "GMBase/Classes/**/*",
+  "swift_version": "5.0"
+}
