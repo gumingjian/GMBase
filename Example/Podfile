@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'GMBase_Example' do
+  pod 'GMBase', :path => '../'
+
+  target 'GMBase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
