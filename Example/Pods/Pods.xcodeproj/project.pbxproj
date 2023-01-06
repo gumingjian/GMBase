@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0817CDC9BDB5C8A71AF179B55341864C /* GMMapSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = C815A6BC973F9A9DBF6D9FEA1E299CA4 /* GMMapSelect.swift */; };
 		26882D2C2F0FD32C4E7193533A3BAE84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3531166B07F81C652A34C4FA26400AD3 /* Pods-GMBase_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B698C84723325443E18893EF3B3CEBDE /* Pods-GMBase_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8165CDC5C6413BA84CD2A9403E0E1746 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		92545FC6F41DADBBF03FEAEA3D0994C7 /* GMBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D60987BA8C2CD59B36E5541A699D7995 /* GMBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95973A4B272D44D19F3D91242797F0CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9ABD74C92967EC2500FBE9E3 /* GMBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD74C82967EC2500FBE9E3 /* GMBasic.swift */; };
+		9ABD74D129680ADC00FBE9E3 /* GMBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD74CF29680ADC00FBE9E3 /* GMBasic.swift */; };
+		9ABD74D229680ADC00FBE9E3 /* GMMapSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD74D029680ADC00FBE9E3 /* GMMapSelect.swift */; };
 		A5CF2D6F1DCD8F59A0E158887F97E392 /* Pods-GMBase_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E97FE964B5B973FBC4E5B7EF7DDB825 /* Pods-GMBase_Example-dummy.m */; };
 		E9C84BCB5D44BA6EC3CDECE18CBD49D8 /* GMBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC41F18549E2AC54D34D3F73299D74B /* GMBase-dummy.m */; };
 		EE475972471364F5E9EA667D7571BDA5 /* Pods-GMBase_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D6C432A0891F651EDEB734178EF8FB /* Pods-GMBase_Tests-dummy.m */; };
@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0038AD0AECFFB422C370203786773214 /* GMBase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GMBase; path = GMBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0038AD0AECFFB422C370203786773214 /* GMBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GMBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06F22327DD7F8679D4B70135904DC406 /* GMBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GMBase.debug.xcconfig; sourceTree = "<group>"; };
 		0D6DD3B9ECC4C81D81AA981675627281 /* Pods-GMBase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMBase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		13E946E71669517D27D5B9D84E765EA2 /* GMBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GMBase.modulemap; sourceTree = "<group>"; };
@@ -54,14 +54,14 @@
 		7378CB395842B1260E7D9F2BA5C8C3CF /* GMBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMBase-prefix.pch"; sourceTree = "<group>"; };
 		757E3BFA1FEE2B102B8CFE585CBD5BF0 /* Pods-GMBase_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GMBase_Tests"; path = Pods_GMBase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D977A1F84C85CF9B5A7EAB350FB1CA8 /* Pods-GMBase_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GMBase_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9ABD74C82967EC2500FBE9E3 /* GMBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMBasic.swift; sourceTree = "<group>"; };
+		9ABD74CF29680ADC00FBE9E3 /* GMBasic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GMBasic.swift; path = GMBase/Classes/GMBasic.swift; sourceTree = "<group>"; };
+		9ABD74D029680ADC00FBE9E3 /* GMMapSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GMMapSelect.swift; path = GMBase/Classes/GMMapSelect.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A82411EFE73830FA28930F60EEA1B543 /* Pods-GMBase_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMBase_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A9D6C432A0891F651EDEB734178EF8FB /* Pods-GMBase_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GMBase_Tests-dummy.m"; sourceTree = "<group>"; };
 		B513B38673C552287374B20482A13BC1 /* Pods-GMBase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMBase_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B698C84723325443E18893EF3B3CEBDE /* Pods-GMBase_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GMBase_Example-umbrella.h"; sourceTree = "<group>"; };
 		B939FDD8B18DD3668CC4D0643CE6D2CA /* Pods-GMBase_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMBase_Example-Info.plist"; sourceTree = "<group>"; };
-		C815A6BC973F9A9DBF6D9FEA1E299CA4 /* GMMapSelect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GMMapSelect.swift; path = GMBase/Classes/GMMapSelect.swift; sourceTree = "<group>"; };
 		D47BA5643EA88DC6CAFD483FB5221E2E /* GMBase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GMBase.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D60987BA8C2CD59B36E5541A699D7995 /* GMBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMBase-umbrella.h"; sourceTree = "<group>"; };
 		DEC41F18549E2AC54D34D3F73299D74B /* GMBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GMBase-dummy.m"; sourceTree = "<group>"; };
@@ -169,7 +169,7 @@
 		95932F0BE7625058C6E1C94499088E10 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0038AD0AECFFB422C370203786773214 /* GMBase */,
+				0038AD0AECFFB422C370203786773214 /* GMBase.framework */,
 				3138A53C07D118CC8F7BF6D5D03273F1 /* Pods-GMBase_Example */,
 				757E3BFA1FEE2B102B8CFE585CBD5BF0 /* Pods-GMBase_Tests */,
 			);
@@ -206,8 +206,8 @@
 		D3B2E4549F26F31A87178BBFFC33AE0D /* GMBase */ = {
 			isa = PBXGroup;
 			children = (
-				C815A6BC973F9A9DBF6D9FEA1E299CA4 /* GMMapSelect.swift */,
-				9ABD74C82967EC2500FBE9E3 /* GMBasic.swift */,
+				9ABD74CF29680ADC00FBE9E3 /* GMBasic.swift */,
+				9ABD74D029680ADC00FBE9E3 /* GMMapSelect.swift */,
 				3C55B119A935AD8B4E6808CFC3A0068D /* Pod */,
 				80456304DB16BD653A83B0D1D96CFF2D /* Support Files */,
 			);
@@ -307,7 +307,7 @@
 			);
 			name = GMBase;
 			productName = GMBase;
-			productReference = 0038AD0AECFFB422C370203786773214 /* GMBase */;
+			productReference = 0038AD0AECFFB422C370203786773214 /* GMBase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -318,6 +318,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D528AF38707FE32767B7D5C6A427213E = {
+						LastSwiftMigration = 1420;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -376,9 +381,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ABD74D129680ADC00FBE9E3 /* GMBasic.swift in Sources */,
+				9ABD74D229680ADC00FBE9E3 /* GMMapSelect.swift in Sources */,
 				E9C84BCB5D44BA6EC3CDECE18CBD49D8 /* GMBase-dummy.m in Sources */,
-				0817CDC9BDB5C8A71AF179B55341864C /* GMMapSelect.swift in Sources */,
-				9ABD74C92967EC2500FBE9E3 /* GMBasic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 06F22327DD7F8679D4B70135904DC406 /* GMBase.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -527,6 +533,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -571,6 +578,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F891FC9F3FA7474F522B4485FD19CB91 /* GMBase.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
